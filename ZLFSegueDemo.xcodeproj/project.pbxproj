@@ -15,6 +15,9 @@
 		D14B4B9E1BFAEF5200BD60AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14B4B9C1BFAEF5200BD60AD /* LaunchScreen.storyboard */; };
 		D14B4BA91BFAEF5200BD60AD /* ZLFSegueDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B4BA81BFAEF5200BD60AD /* ZLFSegueDemoTests.m */; };
 		D14B4BB41BFAEF5200BD60AD /* ZLFSegueDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B4BB31BFAEF5200BD60AD /* ZLFSegueDemoUITests.m */; };
+		D14B4BC31BFAF1D700BD60AD /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B4BC21BFAF1D700BD60AD /* ViewController1.m */; };
+		D14B4BC91BFAF21700BD60AD /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B4BC81BFAF21700BD60AD /* ViewController2.m */; };
+		D14B4BCC1BFAF22500BD60AD /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B4BCB1BFAF22500BD60AD /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		D14B4BAF1BFAEF5200BD60AD /* ZLFSegueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLFSegueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14B4BB31BFAEF5200BD60AD /* ZLFSegueDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFSegueDemoUITests.m; sourceTree = "<group>"; };
 		D14B4BB51BFAEF5200BD60AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14B4BC11BFAF1D700BD60AD /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		D14B4BC21BFAF1D700BD60AD /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		D14B4BC71BFAF21700BD60AD /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		D14B4BC81BFAF21700BD60AD /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		D14B4BCA1BFAF22500BD60AD /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		D14B4BCB1BFAF22500BD60AD /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				D14B4B9C1BFAEF5200BD60AD /* LaunchScreen.storyboard */,
 				D14B4B9F1BFAEF5200BD60AD /* Info.plist */,
 				D14B4B8E1BFAEF5200BD60AD /* Supporting Files */,
+				D14B4BC11BFAF1D700BD60AD /* ViewController1.h */,
+				D14B4BC21BFAF1D700BD60AD /* ViewController1.m */,
+				D14B4BC71BFAF21700BD60AD /* ViewController2.h */,
+				D14B4BC81BFAF21700BD60AD /* ViewController2.m */,
+				D14B4BCA1BFAF22500BD60AD /* ViewController3.h */,
+				D14B4BCB1BFAF22500BD60AD /* ViewController3.m */,
 			);
 			path = ZLFSegueDemo;
 			sourceTree = "<group>";
@@ -270,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14B4BC31BFAF1D700BD60AD /* ViewController1.m in Sources */,
 				D14B4B961BFAEF5200BD60AD /* ViewController.m in Sources */,
+				D14B4BCC1BFAF22500BD60AD /* ViewController3.m in Sources */,
+				D14B4BC91BFAF21700BD60AD /* ViewController2.m in Sources */,
 				D14B4B931BFAEF5200BD60AD /* AppDelegate.m in Sources */,
 				D14B4B901BFAEF5200BD60AD /* main.m in Sources */,
 			);
@@ -414,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLFSegueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.ZLFSegueDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLFSegueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.ZLFSegueDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
